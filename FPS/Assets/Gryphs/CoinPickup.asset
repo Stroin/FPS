@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: CoinPickup
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-243.0,"y":140.0},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"OnPlayerPickedUp","$type":"System.String"}},"position":{"x":-263.0,"y":-52.0},"guid":"197d3b87-917c-4a7e-ab13-3d4d89a59d23","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"9"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"coinManager","$type":"System.String"}},"position":{"x":-240.0,"y":114.0},"guid":"7c7aea01-3b2a-47c2-af06-6eefed8604aa","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"argumentCount":0,"defaultValues":{"name":{"$content":"AddCoin","$type":"System.String"},"target":null},"position":{"x":133.0,"y":56.0},"guid":"d8373cf5-11da-4c69-b39a-d02b1ba764f3","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"56fbc58f-7bdd-4460-a1ac-e8f7e1b4c996","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"cf1e0868-8d39-40ba-a752-0a1f806259be","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
